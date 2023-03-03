@@ -56,9 +56,9 @@ expression2 test 为 false 时返回的表达式。可能是逗点表达式。
   
 4. 实体变量名之后加？
   
-      string s = "123456789";
-      var r1 = s?.Last();
-      s = null;
-      var r2 = s?.Last();  
+          string s = "123456789";
+          var r1 = s?.Last();
+          s = null;
+          var r2 = s?.Last();  
   
   当变量不为null时，正常执行；当变量为null时，返回null。
