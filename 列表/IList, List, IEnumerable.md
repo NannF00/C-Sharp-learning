@@ -1,6 +1,6 @@
 The principle here is do not ask for more than you need.
 
-# IEnumerable<T> , IList<T> , LIst<T>
+# IEnumerable<T> , IList<T> , List<T>
 
 IEnumerable<T> communicates "I need to get the elements of this sequence from beginning to end". 
 
